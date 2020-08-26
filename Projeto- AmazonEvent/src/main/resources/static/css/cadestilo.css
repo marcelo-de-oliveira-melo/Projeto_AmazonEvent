@@ -1,0 +1,113 @@
+#telaCadastro{
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+    box-shadow: 10px 20px 40px rgb(212, 212, 212);
+      
+  
+  }
+  #fundo{
+      display: flex;
+       margin: 5px;
+      height: 520px;
+      float: left;
+     
+  }
+  
+  .form-group h1{
+    color: #50525f;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 0;
+    line-height: normal;
+  
+  }
+  .form-group h2{
+      color: #1E90FF;
+      text-align: center;
+      font-weight: 100;
+      margin-top: 0;
+      line-height: normal;
+
+    }
+  
+  body{
+    background-color: rgb(248, 248, 248);
+  }
+  
+  input {
+    /* -webkit-writing-mode: horizontal-tb !important; */
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+  }
+  input {
+    line-height: normal;
+    margin: 0;
+      font: inherit;
+      color: inherit;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+  }
+  .form-group input {
+    width: 100%;
+    border: none;
+    outline: none;
+    line-height: 26px;
+  }
+  .form-group {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+    position: relative;
+  }
+  label{
+  color: white;
+  }
+  
+  a{
+  
+    font-weight: bold ;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #50525f;
+    transition: 0.25;
+  }
+  
+  .form-group a:hover{
+  transition: 0.25;
+  color: #50525f;
+  
+  }
+  
+  .form-group input[type="email"], input[type="password"]{
+   
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+  outline: none;
+  
+  }
