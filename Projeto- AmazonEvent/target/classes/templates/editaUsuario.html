@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/cadestilo.css">
+
+    <title>AmazonEvent</title>
+
+</head>
+<body style="background-color: rgb(240, 240, 240) ">
+<header>
+
+    <!-- As a heading -->
+    <nav class="navbar navbar-light" style="background-color: white">
+        <span class="navbar-brand mb-0 h1" style="font-weight: bold; color: #1E90FF; font-size:30px">AmazonEvent</span>
+        <form class="form-inline my-2 my-lg-0"  action="pesquisarevento" method="post">
+
+            <a class="nav-link" href="/newevento" role="button" style="font-size:22px">+criar evento</a>
+            <a class="nav-link" href="/meuseventos" role="button" style="font-size:22px" >meus eventos</a>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="nomepesquisa">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">buscar</button>
+        </form>
+    </nav>
+
+</header>
+
+<div class="card" id="telaCadastro">
+
+    <div class="card-body">
+        <form method="post">
+
+            <div class="form-group">
+                <h2>Dados da Conta</h2>
+                <label>Login</label>
+                <input type="text" class="form-control" name="login" aria-describedby="Login" placeholder="login">
+            </div>
+
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="email">
+            </div>
+            <div class="form-group">
+
+                <input type="password" class="form-control" name="senha" placeholder="senha">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-info btn-block">editar</button>
+            </br>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
