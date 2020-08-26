@@ -1,4 +1,6 @@
 # AmazonEvent
+Importante --> Descompactar a as pastas .idea e .mvn
+
 Funcionalidades implementadas:
  - Criação de evento
  - Listagem de eventos
