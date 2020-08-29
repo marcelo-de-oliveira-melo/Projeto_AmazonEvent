@@ -8,6 +8,7 @@ O que já foi implementado:
  - Participação em evento
  - Carrousseel
  - CRUD de evento
+ - Eventos na página principal
  - 
 
 O que falta implementar:
