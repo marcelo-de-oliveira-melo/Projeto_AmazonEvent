@@ -13,6 +13,7 @@ O que já foi implementado:
 
 O que falta implementar:
  - Pesquisa por titulo
+ - Paginação
  - Acessar e editar o perfil do usuário na página "Minha conta"
  - Sistema de registro de presença
  - Emissão de certificado
