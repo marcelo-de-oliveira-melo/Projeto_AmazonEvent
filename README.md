@@ -9,10 +9,10 @@ O que já foi implementado:
  - Carrousseel
  - CRUD de evento
  - Eventos na página principal
+ - Pesquisa por titulo
  - 
 
 O que falta implementar:
- - Pesquisa por titulo
  - Paginação
  - Acessar e editar o perfil do usuário na página "Minha conta"
  - Sistema de registro de presença
