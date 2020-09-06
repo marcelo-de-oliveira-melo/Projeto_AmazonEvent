@@ -18,5 +18,5 @@ O que falta implementar:
  - Login e cadastro (spring security)
  - Acessar e editar o perfil do usuário na página "Minha conta"
  - Paginação
- 
+ - ajeitar o rodapé kkkk
 
