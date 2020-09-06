@@ -13,8 +13,10 @@ O que já foi implementado:
  - 
 
 O que falta implementar:
- - Paginação
- - Acessar e editar o perfil do usuário na página "Minha conta"
+ - Imprimir lista de presença e lista de participantes
  - Emissão de certificado
  - Login e cadastro (spring security)
- - Imprimir lista de presença e lista de participantes
+ - Acessar e editar o perfil do usuário na página "Minha conta"
+ - Paginação
+ 
+
