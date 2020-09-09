@@ -2,15 +2,19 @@
 Importante --> Descompactar a as pastas .idea e .mvn
 
 O que já foi implementado:
- - Gerenciamento de eventos
+
+(Itaciane) - Pré entrega
  - Listagem de participantes
- - Impressão de lista de participantes em PDF
  - Participação em evento
  - Carrousseel
- - CRUD de evento
  - Eventos na página principal
+ 
+(Marcelo) - Pós entrega
+ - Impressão de lista de participantes em PDF
+ - Impressão de lista de presença em PDF
+ - Gerenciamento de eventos
  - Pesquisa por titulo
- - 
+ - CRUD de evento
 
 O que falta implementar:
  - Imprimir lista de presença e lista de participantes
