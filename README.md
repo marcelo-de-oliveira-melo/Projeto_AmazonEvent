@@ -32,3 +32,4 @@ O que falta implementar:
  - Ajeitar o rodapé
    - deixar o rodapé na parte de baixo msm se tiver espaço no meio da tela
 
+- Analisar a imagem do evento pq acho que aquilo é uma gambiarra de baixa qualidade
