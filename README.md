@@ -1,7 +1,7 @@
 # AmazonEvent
 ***Importante --> Descompactar a as pastas .idea e .mvn***
 
-##**O que já foi implementado:**
+## O que já foi implementado:
 
 (Itaciane) - Pré entrega
  - Listagem de participantes
@@ -16,7 +16,7 @@
  - Pesquisa por titulo
  - CRUD de evento
 
-##**O que falta implementar:**
+## O que falta implementar:
  - Imprimir lista de presença e lista de participantes
    - Falta so deixar bonito
    
