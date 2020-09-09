@@ -37,5 +37,6 @@
    - deixar o rodapé na parte de baixo msm se tiver espaço no meio da tela
    
  - Criar uma pagina de gerenciamento de usuarios para o MASTER
+   - criar uma area de gerenciamento exclusiva do MASTER
 
  - Analisar a imagem do evento pq acho que aquilo é uma gambiarra de baixa qualidade
