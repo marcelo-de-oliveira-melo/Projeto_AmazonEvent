@@ -23,8 +23,11 @@ O que falta implementar:
    - Falta so ajeitar a encriptação do bagulho
    
  - Acessar e editar o perfil do usuário na página "Minha conta"
+   - Falta ter ideia de como faz
  
  - Paginação
+   - Falta ajeitar para não sobrepor a pesquisa
+   - Falta fazer o javaScript e os metodos para a barra de numero de páginas
  
  - Ajeitar o rodapé
    - deixar o rodapé na parte de baixo msm se tiver espaço no meio da tela
