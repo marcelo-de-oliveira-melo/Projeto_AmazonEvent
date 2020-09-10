@@ -17,11 +17,20 @@
  - Pesquisa por titulo
  - CRUD de evento
  - Login e cadastro (spring security)
- 
 
-## O que falta implementar:
+## O que falta ajeitar:
  - Imprimir lista de presença e lista de participantes --> ***passar tudo para html e js***
-    
+ 
+ - Ajeitar o rodapé
+   - deixar o rodapé na parte de baixo mesmo se tiver espaço no meio da tela
+   
+ - Analisar a imagem do evento pq acho que aquilo é uma gambiarra fuleira
+ 
+ - O participante deve ter o id de quem o cadastrou - para evitar flood
+ 
+ - Desinscrever um participante de um evento - para não atrapalhar a organização do evento
+
+## O que falta implementar:    
  - Emissão de certificado --> ***passar tudo para html e js***
  
  - Acessar e editar o perfil do usuário na página "Minha conta"
@@ -31,18 +40,9 @@
    - Falta ajeitar para não sobrepor a pesquisa
    - Falta fazer o javaScript e os metodos para a barra de numero de páginas
  
- - Ajeitar o rodapé
-   - deixar o rodapé na parte de baixo mesmo se tiver espaço no meio da tela
-   
  - Criar páginas para o moderador
    - criar uma area de gerenciamento de eventos do moderador
    - criar uma area de gerenciamento de usuarios do moderador
-
- - Analisar a imagem do evento pq acho que aquilo é uma gambiarra fuleira
- 
- - O participante deve ter o id de quem o cadastrou - para evitar flood
- 
- - Desinscrever um participante de um evento - para não atrapalhar a organização do evento
  
  ## Perguntas: 
  - O usuario pode escolher ser organizador logo no cadastro inicial?
