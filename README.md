@@ -4,10 +4,10 @@
 ## O que já foi implementado:
 
 (Itaciane) - Pré entrega
- - Listagem de participantes
- - Participação em evento
- - Eventos na página principal
  - Criação de evento
+ - Eventos na página principal
+ - Participação em evento
+ - Listagem de participantes
  
 (Marcelo) - Pós entrega
  - Carroussel **(pré entrega)**
@@ -20,17 +20,9 @@
  
 
 ## O que falta implementar:
-(Perguntas: 
- - O usuario pode escolher ser organizador logo no cadastro inicial?
- - 
-
-)
- - Imprimir lista de presença e lista de participantes
-***passar tudo para html e js***
-   - Falta so deixar bonito
-   
- - Emissão de certificado
-***>passar tudo para html e js***
+ - Imprimir lista de presença e lista de participantes --> ***passar tudo para html e js***
+    
+ - Emissão de certificado --> ***passar tudo para html e js***
  
  - Acessar e editar o perfil do usuário na página "Minha conta"
    - Falta ter ideia de como faz
@@ -51,3 +43,9 @@
  - O participante deve ter o id de quem o cadastrou - para evitar flood
  
  - Desinscrever um participante de um evento - para não atrapalhar a organização do evento
+ 
+ ## Perguntas: 
+ - O usuario pode escolher ser organizador logo no cadastro inicial?
+ 
+
+
