@@ -45,4 +45,4 @@
    - criar uma area de gerenciamento de eventos do moderador
    - criar uma area de gerenciamento de usuarios do moderador
 
- - Analisar a imagem do evento pq acho que aquilo é uma gambiarra de baixa qualidade
+ - Analisar a imagem do evento pq acho que aquilo é uma gambiarra fuleira
