@@ -15,6 +15,7 @@
  - Gerenciamento de eventos
  - Pesquisa por titulo
  - CRUD de evento
+ - Login e cadastro (spring security)
 
 ## O que falta implementar:
  - Imprimir lista de presença e lista de participantes
@@ -23,9 +24,6 @@
  - Emissão de certificado
    - Falta fazer
  
- - Login e cadastro (spring security)
-   - Falta so ajeitar a encriptação do bagulho
-   
  - Acessar e editar o perfil do usuário na página "Minha conta"
    - Falta ter ideia de como faz
  
@@ -36,7 +34,8 @@
  - Ajeitar o rodapé
    - deixar o rodapé na parte de baixo msm se tiver espaço no meio da tela
    
- - Criar uma pagina de gerenciamento de usuarios para o MASTER
-   - criar uma area de gerenciamento exclusiva do MASTER
+ - Criar páginas para o moderador
+   - criar uma area de gerenciamento de eventos do moderador
+   - criar uma area de gerenciamento de usuarios do moderador
 
  - Analisar a imagem do evento pq acho que aquilo é uma gambiarra de baixa qualidade
