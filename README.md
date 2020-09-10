@@ -26,10 +26,11 @@
 
 )
  - Imprimir lista de presença e lista de participantes
+***passar tudo para html e js***
    - Falta so deixar bonito
    
  - Emissão de certificado
-   - Falta fazer
+***>passar tudo para html e js***
  
  - Acessar e editar o perfil do usuário na página "Minha conta"
    - Falta ter ideia de como faz
@@ -46,3 +47,7 @@
    - criar uma area de gerenciamento de usuarios do moderador
 
  - Analisar a imagem do evento pq acho que aquilo é uma gambiarra fuleira
+ 
+ - O participante deve ter o id de quem o cadastrou - para evitar flood
+ 
+ - Desinscrever um participante de um evento - para não atrapalhar a organização do evento
