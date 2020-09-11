@@ -29,8 +29,6 @@
  
  - O participante deve ter o id de quem o cadastrou - para evitar flood
  
- - Desinscrever um participante de um evento - para não atrapalhar a organização do evento
- 
  - Os eventos na página "meus eventos" devem aparecer apenas para o seu 'autor' e não para todos os organizadores
  
  - Acho que da para deixar a tabela dos eventos mais responsivo
@@ -40,13 +38,16 @@
  - Criar mais controllers para ficar mais organizado
 
 ## O que falta implementar:    
- - Uma pesquisa para os participantes de um evento
+ - Uma pesquisa para os eventos de cada organizador
  
  - Emissão de certificado --> ***passar tudo para html e js***
  
  - Acessar e editar o perfil do usuário na página "Minha conta"
    - Falta ter ideia de como faz
- 
+   
+ - Desinscrever um participante de um evento - para não atrapalhar a organização do evento
+   - Criar página "participando" 
+   
  - Criar páginas para o moderador
    - criar uma area de gerenciamento de eventos do moderador
    - criar uma area de gerenciamento de usuarios do moderador
@@ -55,10 +56,8 @@
    - Falta ajeitar para não sobrepor a pesquisa
    - Falta fazer o javaScript e os metodos para a barra de numero de páginas
  
- 
  ## Perguntas: 
  - O usuario pode escolher ser organizador logo no cadastro inicial?
- 
  
 ## APIs:
  - Validar email
