@@ -38,6 +38,14 @@
  - Criar mais controllers para ficar mais organizado
 
 ## O que falta implementar:    
+ - Menssagens de erro
+   - Login
+   - Cadastro
+   - Criação de evento
+   - Inscrição
+   - Evento não encontrado(pesquisa)
+   - Participante não encontrado(pesquisa)
+   
  - Uma pesquisa para os eventos de cada organizador
  
  - Emissão de certificado --> ***passar tudo para html e js***
