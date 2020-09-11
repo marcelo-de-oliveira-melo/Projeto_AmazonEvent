@@ -14,7 +14,8 @@
  - Impressão de lista de participantes em PDF
  - Impressão de lista de presença em PDF
  - Gerenciamento de eventos
- - Pesquisa por titulo
+ - Pesquisa por titulo (pagina principal)
+ - Pesquisa de participantes
  - CRUD de evento
  - Login e cadastro (spring security)
 
@@ -57,6 +58,12 @@
  
  ## Perguntas: 
  - O usuario pode escolher ser organizador logo no cadastro inicial?
+ 
+ 
+## APIs:
+ - Validar email
+ - Validar Nomes ofensivos
+ -
  
 
 
