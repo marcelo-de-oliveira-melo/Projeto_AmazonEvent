@@ -35,6 +35,8 @@
  - Acho que da para deixar a tabela dos eventos mais responsivo
  
  - A pesquisa pode sobreescrever a paginação mas não o contrário
+ 
+ - Criar mais controllers para ficar mais organizado
 
 ## O que falta implementar:    
  - Uma pesquisa para os participantes de um evento
