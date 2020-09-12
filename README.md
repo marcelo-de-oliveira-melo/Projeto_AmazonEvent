@@ -4,9 +4,7 @@
 ## O que já foi implementado:
 
 (Itaciane)
-
--**Pré entrega**
-
+ - **Pré entrega**
  - Criação de evento
  - Eventos na página principal
  - Participação em evento
@@ -14,15 +12,11 @@
  - Listagem de eventos
  
 (Marcelo) 
-
--**Pré entrega**
-
+ - **Pré entrega**
  - Responsividade 
  - Carroussel 
  - Impressão de lista de participantes em PDF
- 
--**Pós entrega**
-
+ - **Pós entrega**
  - Impressão de lista de presença em PDF
  - Gerenciamento de eventos
  - Pesquisa por titulo (pagina principal)
@@ -42,7 +36,7 @@
 { 
  - O participante deve ter o id de quem o cadastrou - para evitar flood **(precisa do id do usuario)**
  
- - Os eventos na página "meus eventos" devem aparecer apenas para o seu 'autor'**(precisa do id do usuario)**
+ - Os eventos na página "meus eventos" devem aparecer apenas para o seu 'autor' **(precisa do id do usuario)**
  }
  - A pesquisa pode sobreescrever a paginação mas não o contrário
  
@@ -74,10 +68,10 @@
  ## Perguntas: 
  - O usuario pode escolher ser organizador logo no cadastro inicial?
  
-## APIs:
+## APIs que serão implementadas:
  - Validar email
  - Validar Nomes ofensivos
- -
+ 
  
 
 
