@@ -4,19 +4,20 @@
 ## O que já foi implementado:
 
 (Itaciane)
- - **Pré entrega**
  - Criação de evento
  - Eventos na página principal
  - Participação em evento
  - Listagem de participantes
  - Listagem de eventos
+ - Impressão de lista de participantes em PDF
+ - Página principal
+ - Página de detalhes do evento
+ - Página de gerenciamento de eventos 
+ - Página participantes
  
 (Marcelo) 
- - **Pré entrega**
  - Responsividade 
  - Carroussel 
- - Impressão de lista de participantes em PDF
- - **Pós entrega**
  - Impressão de lista de presença em PDF
  - Gerenciamento de eventos
  - Pesquisa por titulo (pagina principal)
@@ -25,7 +26,8 @@
  - Pesquisa de usuarios
  - CRUD de evento
  - Login e cadastro (spring security)
- - Páginas do moderador
+ - Página gerenciar eventos (moderador)
+ - Página gerenciar usuarios
  - Código já reduzido com o fragment (o que deu pra fazer ate momento)
 
 ## O que falta ajeitar:
