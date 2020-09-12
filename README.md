@@ -4,19 +4,25 @@
 ## O que já foi implementado:
 
 (Itaciane)
-**Pré entrega**
+
+-**Pré entrega**
+
  - Criação de evento
  - Eventos na página principal
  - Participação em evento
  - Listagem de participantes
  - Listagem de eventos
  
-(Marcelo) - 
-**Pré entrega**
+(Marcelo) 
+
+-**Pré entrega**
+
  - Responsividade 
  - Carroussel 
  - Impressão de lista de participantes em PDF
-**Pós entrega**
+ 
+-**Pós entrega**
+
  - Impressão de lista de presença em PDF
  - Gerenciamento de eventos
  - Pesquisa por titulo (pagina principal)
@@ -34,9 +40,9 @@
  - Ajeitar o rodapé
    - deixar o rodapé na parte de baixo mesmo se tiver espaço no meio da tela
 { 
- - O participante deve ter o id de quem o cadastrou - para evitar flood **(precisa do id do usuario)
+ - O participante deve ter o id de quem o cadastrou - para evitar flood **(precisa do id do usuario)**
  
- - Os eventos na página "meus eventos" devem aparecer apenas para o seu 'autor'**(precisa do id do usuario)
+ - Os eventos na página "meus eventos" devem aparecer apenas para o seu 'autor'**(precisa do id do usuario)**
  }
  - A pesquisa pode sobreescrever a paginação mas não o contrário
  
@@ -50,15 +56,15 @@
    - Participante não encontrado(pesquisa)
    - Usuario não encontrado(pesquisa)
    
- - Uma pesquisa para os eventos de cada organizador **(precisa do id do usuario)
+ - Uma pesquisa para os eventos de cada organizador **(precisa do id do usuario)**
  
  - Emissão de certificado --> ***passar tudo para html e js***
    - Enviar certificado por email
  
- - Acessar e editar o perfil do usuário na página "Minha conta" **(precisa do id do usuario)
+ - Acessar e editar o perfil do usuário na página "Minha conta" **(precisa do id do usuario)**
    - Falta ter ideia de como faz
    
- - Desinscrever um participante de um evento - para não atrapalhar a organização do evento **(precisa do id do usuario)
+ - Desinscrever um participante de um evento - para não atrapalhar a organização do evento **(precisa do id do usuario)**
    - Criar página "participando" 
    
  - Paginação
