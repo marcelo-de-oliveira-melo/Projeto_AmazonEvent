@@ -4,12 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-     <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <!-- links -->
+    <div th:insert="fragmentos :: links"></div>
+    <!-- links -->
     <title>login</title>
     <style type="text/css">
      #telaLogin{
@@ -132,9 +129,9 @@
     <div class="card-body">
     <form th:action="@{/login}" method="post">
         <div class="alert alert-success" th:text="${mensagem}" th:if="${mensagem !=null}"></div>
+        <div class="alert alert-danger" th:text="${mensagemErro}" th:if="${mensagemErro !=null}"></div>
         <div class="form-group">
         <h1>Login</h1>
-            <div class="alert alert-danger" th:text="${mensagemErro}" th:if="${mensagemErro !=null}"></div>
         <input type="text" class="form-control" name="login" aria-describedby="Login" placeholder="insira seu nome">
     </div>
     <div class="form-group">

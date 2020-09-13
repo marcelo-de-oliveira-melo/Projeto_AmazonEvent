@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns:th="http://thymeleaf.org">
+<html  xmlns="http://www.w3.org/1999/xhtml"
+       xmlns:th="http://thymeleaf.org"
+       xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.js"></script>
-
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- links -->
+    <div th:insert="fragmentos :: links"></div>
+    <!-- links -->
     <title>AmazonEvent</title>
 </head>
 <body style="background-color: rgb(240, 240, 240) ">
@@ -38,25 +32,30 @@
             </ol>
         </nav>
         <div>
-            <form method="post" enctype="multipart/form-data">
+            <form  action="#" th:action="@{/save}" th:object="${evento}"
+                   method="post"enctype="multipart/form-data">
+                <div class="form-group">
+                    ID do evento
+                    <input type="text" class="form-control" name="id" th:field="*{id}" readonly="readonly">
+                </div>
                 <div class="form-group">
                     Nome*
-                    <input type="text" class="form-control" name="nome" placeholder="Nome...">
+                    <input type="text" class="form-control" name="nome" th:field="*{nome}">
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label> Categoria*</label>
-                        <input type="text" class="form-control" name="categoria" placeholder="Categoria...">
+                        <input type="text" class="form-control" name="categoria" th:field="*{categoria}">
                     </div>
                     <div class="form-group col-md-6">
                         <label>Local*</label>
-                        <input type="text" class="form-control" name="local" placeholder="Local...">
+                        <input type="text" class="form-control" name="local" th:field="*{local}">
                     </div>
                 </div>
                 <div class="form-row">
                 <div class="form-group col-md-6">
                     Endereço*
-                    <input type="text" class="form-control" name="endereco" placeholder="Endereço...">
+                    <input type="text" class="form-control" name="endereco" th:field="*{endereco}">
                 </div>
               <div class="form-group col-md-6">
                   Imagem do Card*
@@ -66,22 +65,22 @@
                 </div>
                 <div class="form-group">
                     Complemento*
-                    <input type="text" class="form-control" name="complemento" placeholder="Complemento...">
+                    <input type="text" class="form-control" name="complemento" th:field="*{complemento}">
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label>Data</label>
-                        <input type="date" style="width:150px;text-align: center;border: 1px solid #ced4da;border-radius: 3.5px;color:gray;" value="" name="data"/>
+                        <input type="date" style="width:150px;text-align: center;border: 1px solid #ced4da;border-radius: 3.5px;color:gray;" value="" name="data" th:field="*{data}"/>
                     </div>
                     <div class="form-group col-md-6">
                         <label>Hora</label>
-                        <input type="time" style="width:150px;text-align: center;border: 1px solid #ced4da;border-radius: 3.5px;color:gray;" value="" name="hora"/>
+                        <input type="time" style="width:150px;text-align: center;border: 1px solid #ced4da;border-radius: 3.5px;color:gray;" value="" name="hora" th:field="*{hora}"/>
                     </div>
                 </div>
-                <textarea id="summernote" type="text" class="form-control" name="descricao" placeholder="descrição *"></textarea>
+                <textarea id="summernote" type="text" class="form-control" name="descricao" th:field="*{descricao}"></textarea>
                 <small class="form-text text-muted">(*) Campos Obrigatórios</small>
-                <button type="submit" class="btn btn-primary" style="margin-top: 10px">Publicar</button>
-                <a href="/eventos" class="btn btn-light" role="button" style="margin-top: 10px">Cancelar</a>
+                <button type="submit" class="btn btn-primary" style="margin-top: 10px">Salvar alterações</button>
+                <a href="/meuseventos" class="btn btn-light" role="button" style="margin-top: 10px">Cancelar</a>
             </form>
         </div>
     </div>
@@ -89,8 +88,8 @@
 <!-- Footer -->
 <div th:insert="fragmentos :: rodape"></div>
 <!-- Footer -->
-<script src="https://kit.fontawesome.com/dbf279497c.js" crossorigin="anonymous"></script>
-<script> $('#summernote').summernote({ placeholder: 'Descricao *', tabsize: 2, height: 300 }); </script>
-
+<!-- scripts -->
+<div th:insert="fragmentos :: scripts"></div>
+<!-- scripts -->
 </body>
 </html>

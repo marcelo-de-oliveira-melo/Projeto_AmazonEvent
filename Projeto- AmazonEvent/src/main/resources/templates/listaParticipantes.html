@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <!-- links -->
+    <div th:insert="fragmentos :: links"></div>
+    <!-- links --> <title>AmazonEvent</title>
+</head>
+<body style="background-color: rgb(240, 240, 240)">
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light"  style="background-color:#333e68">
+        <a class="navbar-brand mb-0 h1" href="/eventos" style="float:left;font-weight: bold; color: white; font-size:30px">AmazonEvent</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <a class="nav-link" href="/newevento" role="button" style="font-size:22px; color: white">+Criar evento</a>
+                <a class="nav-link" href="/meuseventos" role="button" style="font-size:22px; color: white" >Meus eventos</a>
+                <a class="nav-link" href="/minhaConta" role="button" style="font-size:22px; color: white">Minha conta</a>
+
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0" method="post" th:action="@{/logout}">
+                <button  sec:authorize="isAuthenticated()" class="btn btn-outline-light my-2 my-sm-0" type="submit">Sair</button>
+            </form>
+
+        </div>
+    </nav>
+
+
+</header>
+
+<br>
+<div class="container" >
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb" style="background-color: rgb(240, 240, 240); padding-left:0px;">
+            <li class="breadcrumb-item" aria-current="page"><a href="/eventos">Home</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="/meuseventos">Meus eventos</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Detalhes</li>
+        </ol>
+    </nav>
+<div class="card " >
+    <div class="card-body">
+    <h1 class="card-title" style="font-weight: bold; margin-bottom: 20px;"><span th:text="${evento.nome}"></span></h1>
+    <p class="card-subtitle mb-2 text-muted" style="font-weight: bold; font-size:15px">
+        <span th:text="${evento.categoria}"></span>
+        <br>
+        <span th:text="${evento.local}"></span>
+        <br>
+        <span th:text="${evento.endereco}"></span>
+        <br>
+        <span th:text="${evento.complemento}"> </span>
+        <br>
+        <span th:text="${evento.data}"> </span>
+        <span th:text="${evento.hora}"> </span>
+    </p>
+    <section>
+
+        <div>
+
+            <a th:href="@{/participantes/{id}(id=${evento.id})}">Imprimir lista de participantes</a>
+            <br>
+            <a th:href="@{/presenca/{id}(id=${evento.id})}">Imprimir lista de presença</a>
+        </div>
+    </section>
+        <br>
+    </div>
+</div>
+
+
+<br><br>
+    <form class="form-inline my-2 my-lg-0" th:action="@{/meuseventos/__${evento.id}__}" method="get">
+        <input class="form-control mr-sm-2" placeholder="Pesquisar.." type="text" id="txtSearch" name="palavra">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  <!--  <form class="form-inline my-2 my-lg-0" th:action="@{/meuseventos}" method="get">
+        <input class="form-control mr-sm-2" placeholder="Pesquisar.." type="text" id="txtSearch" name="keyword">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+    </form>-->
+    <div class="table-responsive" style="background-color:white;"  >
+        <table class="table table-hover " style="margin-bottom:0;">
+            <thead class="thead"style="background-color:#c4d2eb; text-align: center;">
+                <tr>
+                    <th>Nome Participante</th>
+                    <th>Cpf</th>
+                    <th>Email</th>
+                    <th>Emitir certificado</th>
+                </tr>
+             </thead>
+            <tbody>
+            <tr th:each="participante : ${participantes}">
+                <td><span th:text="${participante.nomeParticipante}"></span></td>
+                <td><span th:text="${participante.cpf}"></span></td>
+                <td><span th:text="${participante.email}"></span></td>
+                <td style="text-align-last: center;vertical-align: middle;"><button type="button" class="btn btn-primary">Emitir</button></td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!--paginação-->
+<div th:insert="fragmentos :: paginacao"></div>
+<!--paginação-->
+<!-- Footer -->
+<div th:insert="fragmentos :: rodape"></div>
+<!-- Footer -->
+<!-- scripts -->
+<div th:insert="fragmentos :: scripts"></div>
+<!-- scripts -->
+</body>
+</html>

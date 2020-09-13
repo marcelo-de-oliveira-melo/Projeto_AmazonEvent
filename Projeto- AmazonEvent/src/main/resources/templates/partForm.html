@@ -4,9 +4,9 @@
       xmlns: layout="http://www.ultraq.net.nz/thymeleaf/layout">
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- links -->
+    <div th:insert="fragmentos :: links"></div>
+    <!-- links -->
     <title>AmazonEvent</title>
 </head>
 <body style="background-color: rgb(240, 240, 240);">
@@ -47,115 +47,13 @@
 
         <button class="btn btn-primary btn-block" type="submit" >Participar</button>
     </form>
-    <!-- Footer -->
-    <footer class="page-footer font-small unique-color-dark" style="background-color: teal; color:white">
-
-        <div style="background-color: teal">
-            <div class="container">
-
-
-
-            </div>
-            <!-- Grid row-->
-
-        </div>
 </div>
-
-<!-- Footer Links -->
-<div class="container text-center text-md-left mt-5">
-
-    <!-- Grid row -->
-    <div class="row mt-3" style="padding-top: 20px;">
-
-        <!-- Grid column
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
-            Content
-            <h6 class="text-uppercase font-weight-bold">Company name</h6>
-            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur
-                adipisicing elit.</p>
-
-        </div>
-        Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-            <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold">Produtos</h6>
-            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>
-                <a href="#!" style="color:white" >Outros produtos</a>
-            </p>
-
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-            <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold">Links úteis</h6>
-            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-
-            <p>
-                <a href="#!"style="color:white" >Ajuda</a>
-            </p>
-
-        </div>
-        <!-- Grid column -->
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-            <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold">Contato</h6>
-            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>
-                <i class="fas fa-home mr-3"></i> Brazil, Manaus, BR</p>
-            <p>
-                <i class="fas fa-envelope mr-3"></i> info@exemplo.com</p>
-            <p>
-                <i class="fas fa-phone mr-3"></i> + 00 00 0000 0000</p>
-
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-            <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold">Nossas redes sociais</h6>
-            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>
-                <i class="fab fa-facebook"></i><a> Facebook</a></p>
-            <p>
-                <i class="fab fa-instagram"></i><a> Instagram</a></p>
-
-
-
-        </div>
-        <!-- Grid column -->
-
-
-    </div>
-    <!-- Grid row -->
-
-</div>
-<!-- Footer Links -->
-
-<!-- Copyright -->
-<div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="#" style="color:white"> AmazonEvent.com</a>
-</div>
-<!-- Copyright -->
-
-</footer>
 <!-- Footer -->
-<script src="https://kit.fontawesome.com/dbf279497c.js" crossorigin="anonymous"></script>
+<div th:insert="fragmentos :: rodape"></div>
+<!-- Footer -->
+<!-- scripts -->
+<div th:insert="fragmentos :: scripts"></div>
+<!-- scripts -->
 </div>
 </body>
 </html>
