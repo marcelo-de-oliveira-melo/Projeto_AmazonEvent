@@ -40,7 +40,9 @@
 { 
  - O participante deve ter o id de quem o cadastrou - para evitar flood **(precisa do id do usuario)**
  - A pesquisa pode sobreescrever a paginação mas não o contrário
- - Se colocar o login de outro usuario na url do meu perfil ele ainda encontra
+
+ - Restringir para apenas os organizadores de cada evento visualizarem na pagina meus eventos
+ - Restringir para apenas os donos do perfil visualizarem editarem seu perfil
  
 ## O que falta implementar:    
  - Menssagens de erro
