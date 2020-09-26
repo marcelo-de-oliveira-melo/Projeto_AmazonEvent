@@ -20,8 +20,9 @@
  - Carroussel 
  - Impressão de lista de presença em PDF
  - Gerenciamento de eventos
- - Pesquisa por titulo (pagina principal)
+ - Pesquisa por titulo (pagina principal - todos)
  - Pesquisa por titulo (TodosEventos - Moderador)
+ - Pesquisa por titulo (Meus eventos - Organizador)
  - Pesquisa de participantes
  - Pesquisa de usuarios
  - CRUD de evento
@@ -29,6 +30,7 @@
  - Página gerenciar eventos (moderador)
  - Página gerenciar usuarios
  - Código já reduzido com o fragment (o que deu pra fazer ate momento)
+ - Acessar ao perfil do usuário na página "Minha conta"
 
 ## O que falta ajeitar:
  - Imprimir lista de presença e lista de participantes --> ***passar tudo para html e js***
@@ -37,9 +39,6 @@
    - deixar o rodapé na parte de baixo mesmo se tiver espaço no meio da tela
 { 
  - O participante deve ter o id de quem o cadastrou - para evitar flood **(precisa do id do usuario)**
- 
- - Os eventos na página "meus eventos" devem aparecer apenas para o seu 'autor' **(precisa do id do usuario)**
- }
  - A pesquisa pode sobreescrever a paginação mas não o contrário
  - Se colocar o login de outro usuario na url do meu perfil ele ainda encontra
  
@@ -53,12 +52,10 @@
    - Participante não encontrado(pesquisa)
    - Usuario não encontrado(pesquisa)
    
- - Uma pesquisa para os eventos de cada organizador **(precisa do id do usuario)**
- 
  - Emissão de certificado --> ***passar tudo para html e js***
    - Enviar certificado por email
  
- - Acessar e editar o perfil do usuário na página "Minha conta" **(precisa do id do usuario)**
+ - Editar o perfil do usuário na página "Minha conta"
    - Falta ter ideia de como faz
    
  - Desinscrever um participante de um evento - para não atrapalhar a organização do evento **(precisa do id do usuario)**
