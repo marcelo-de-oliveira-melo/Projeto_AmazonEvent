@@ -44,8 +44,16 @@
  - Restringir para apenas os organizadores de cada evento visualizarem na pagina meus eventos
  - Restringir para apenas os donos do perfil visualizarem editarem seu perfil
  
-## O que falta implementar:    
- - Menssagens de erro
+## O que falta implementar:   
+ - Mensagens
+   - Cadastro realizado com sucesso
+   - Evento criado com sucesso
+   - Inscrição realizada com sucesso
+   - Evento editado
+   - Evento exluído
+   - Perfil editado
+   
+ - Mensagens de erro
    - Login
    - Cadastro
    - Criação de evento
