@@ -41,6 +41,7 @@
  - Os eventos na página "meus eventos" devem aparecer apenas para o seu 'autor' **(precisa do id do usuario)**
  }
  - A pesquisa pode sobreescrever a paginação mas não o contrário
+ - Se colocar o login de outro usuario na url do meu perfil ele ainda encontra
  
 ## O que falta implementar:    
  - Menssagens de erro
