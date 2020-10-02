@@ -37,8 +37,7 @@
  
  - Ajeitar o rodapé
    - deixar o rodapé na parte de baixo mesmo se tiver espaço no meio da tela
-
- - O participante deve ter o id de quem o cadastrou - para evitar flood **(precisa do id do usuario)**
+   
  - A pesquisa pode sobreescrever a paginação mas não o contrário
  
 ## O que falta implementar:   
@@ -78,6 +77,7 @@
 ## APIs que serão implementadas:
  - Validar email
  - Validar Nomes ofensivos
+ 
  
  
 
