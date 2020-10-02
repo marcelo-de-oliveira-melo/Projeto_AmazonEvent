@@ -70,6 +70,8 @@
  - Paginação
    - Falta ajeitar para não sobrepor a pesquisa
    - Falta fazer o javaScript e os metodos para a barra com numero de páginas
+   
+ - Enviar um email pra quem se cadastrou 
  
  ## Perguntas: 
  - O usuario pode escolher ser organizador logo no cadastro inicial?
