@@ -40,8 +40,6 @@
 
  - O participante deve ter o id de quem o cadastrou - para evitar flood **(precisa do id do usuario)**
  - A pesquisa pode sobreescrever a paginação mas não o contrário
-
- - Restringir para apenas os donos do perfil visualizarem editarem seu perfil
  
 ## O que falta implementar:   
  - Mensagens
@@ -72,7 +70,7 @@
    
  - Paginação
    - Falta ajeitar para não sobrepor a pesquisa
-   - Falta fazer o javaScript e os metodos para a barra de numero de páginas
+   - Falta fazer o javaScript e os metodos para a barra com numero de páginas
  
  ## Perguntas: 
  - O usuario pode escolher ser organizador logo no cadastro inicial?
