@@ -75,7 +75,7 @@
  
  - Aparecer algo quando n tiver nada no nas tabelas (pagina lista participante e meus eventos)
  
- ## Perguntas: 
+ ## hmmmmmmmmmmm
  - O usuario pode escolher ser organizador logo no cadastro inicial?
  
 ## APIs que serão implementadas:
